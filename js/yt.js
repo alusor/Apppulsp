@@ -30,11 +30,11 @@ $(document).ready(function() {
 					videoTitle =  item.snippet.title;
 					videoId = item.snippet.resourceId.videoId;
 					
-					videoThumbimg = '<pre><img id="thumb" src="' + videoimg + '" alt="No Image Available." style="width:100%;height:auto"></pre>';
+					videoThumbimg = '<img src="' + videoimg + '" alt="No Image Available.">';
 					
 					output = '<a href="viewer.html"><li>' + videoThumbimg + videoTitle + '<br></li><br><a>';
-					
-					$('#results').append(output);
+					card = '<div class="card"> <div class="card-image"><a href="viewer.html">'+videoThumbimg+'</a></div><div class="card-content"><span class="card-title black-text">'+videoTitle+'</div></div> </div>';
+					$('#getVideos').append(card);
 					
 					sessionStorage.setItem("VideoId", videoId)					
 				})		
