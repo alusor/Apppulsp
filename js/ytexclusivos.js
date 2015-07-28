@@ -20,7 +20,7 @@ $(document).ready(function() {
 		"https://www.googleapis.com/youtube/v3/playlistItems",{
 			part: 'snippet',
 			maxResults: 50,
-			playlistId: pid,
+			playlistId: 'PLjfop_BH724Uf4LxIg4jCqzm6laS2wAQh',
 			key: 'AIzaSyCqc_C1VSrfgZuT5rXjvlxdp7Al0EyaZdk'},
 			function(data){
 				var output;
@@ -33,11 +33,10 @@ $(document).ready(function() {
 					videoThumbimg = '<img src="' + videoimg + '" alt="No Image Available.">';
 					
 					//output = '<a href="viewer.html#' +videoId+'"><li>' + videoThumbimg + videoTitle + '<br></li><br><a>';
-					card = '<div class="card"> <div class="card-image"><a href="viewer.html#'+videoId+'">'+videoThumbimg+'</a></div><div class="card-content"><span class="card-title black-text"><a href="viewer.html#'+videoId+'">'+videoTitle+'</a><a class="waves-effect waves-light btn blue darken-4">Facebook</a><a class="waves-effect waves-light btn blue blue darken-1">Twitter</a></div></div> </div>';
+					card = '<div class="card"> <div class="card-image"><a href="viewer.html#'+videoId+'">'+videoThumbimg+'</a></div><div class="card-content"><span class="card-title black-text"><a href="viewer.html#'+videoId+'">'+videoTitle+'</a></div></div> </div>';
 					$('#getVideos').append(card);
 				})		
 			}
 	);
 	}	
 });
-
