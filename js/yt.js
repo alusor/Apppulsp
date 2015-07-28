@@ -33,7 +33,7 @@ $(document).ready(function() {
 					videoThumbimg = '<img src="' + videoimg + '" alt="No Image Available.">';
 					
 					//output = '<a href="viewer.html#' +videoId+'"><li>' + videoThumbimg + videoTitle + '<br></li><br><a>';
-					card = '<div class="card"> <div class="card-image"><a href="viewer.html#'+videoId+'">'+videoThumbimg+'</a></div><div class="card-content"><span><a href="viewer.html#'+videoId+'">'+videoTitle+'</a><div><br><center><a href="#" ><img class="icon" src="images/fb.png"></a>  <a href="#"><img class="icon" src="images/tt.png"></a></div></div></div> </div><img class="icon" src="images/tt.png">';
+					card = '<div class="card"> <div class="card-image"><a href="viewer.html#'+videoId+'">'+videoThumbimg+'</a></div><div class="card-content"><span><a href="viewer.html#'+videoId+'">'+videoTitle+'</a><div><br><b>Compartir: </b><a href="#" ><img class="icon" src="images/fb.png" height=30></a>  <a href="#"><img class="icon" src="images/tt.png" height=30></a></div></div></div> </div>';
 					$('#getVideos').append(card);
 				})		
 			}
