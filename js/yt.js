@@ -32,7 +32,7 @@ $(document).ready(function() {
 					
 					videoThumbimg = '<img src="' + videoimg + '" alt="No Image Available.">';
 					youtubeurl= 'https://youtube.com/watch?v='+videoId;
-					twitterurl = 'http://twitter.com/intent/tweet?text='+videoTitle+" "+youtubeurl+"&lang=es";
+					twitterurl = 'http://twitter.com/intent/tweet?text='+videoTitle+" "+youtubeurl+"- Via el Pulso"+"&lang=es";
 					//facebookurl;
 					
 					//output = '<a href="viewer.html#' +videoId+'"><li>' + videoThumbimg + videoTitle + '<br></li><br><a>';
