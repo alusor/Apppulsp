@@ -1,0 +1,18 @@
+{
+  "name": "EL Pulso",
+  "description": "El mejor noticiero sat�rico de M�xico ahora disponible en tu dispositivo m�vil. Deja que Chumel Torres te informe de lo mejor y lo peor de nuestro pa�s en El Pulso de la Rep�blica, todos los lunes y jueves a las 11 am.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/icon.png"
+  },
+  "developer": {
+    "name": "Alusor Stroke",
+    "url": "http://alusorstroke.com"
+  },
+ "default_locale": "es", 
+   "splashscreen": 
+   {
+    "image": "/images/splash.png",
+    "color": "#0e3f6b"
+  }
+}
