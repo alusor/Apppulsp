@@ -1,6 +1,6 @@
 {
-  "name": "EL Pulso",
-  "description": "El mejor noticiero sat�rico de M�xico ahora disponible en tu dispositivo m�vil. Deja que Chumel Torres te informe de lo mejor y lo peor de nuestro pa�s en El Pulso de la Rep�blica, todos los lunes y jueves a las 11 am.",
+  "name": "El Pulso",
+  "description": "El mejor noticiero satirico de Mexico ahora disponible en tu dispositivo movil. Deja que Chumel Torres te informe de lo mejor y lo peor de nuestro pais en El Pulso de la Republica, todos los lunes y jueves a las 11 am.",
   "launch_path": "/index.html",
   "icons": {
     "128": "/images/icon.png"
