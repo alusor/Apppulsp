@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "El Pulso",
   "description": "El mejor noticiero satirico de Mexico ahora disponible en tu dispositivo movil. Deja que Chumel Torres te informe de lo mejor y lo peor de nuestro pais en El Pulso de la Republica, todos los lunes y jueves a las 11 am.",
   "launch_path": "/index.html",
@@ -9,10 +9,5 @@
     "name": "Alusor Stroke",
     "url": "http://alusorstroke.com"
   },
- "default_locale": "es", 
-   "splashscreen": 
-   {
-    "image": "/images/splash.png",
-    "color": "#0e3f6b"
-  }
+ "default_locale": "es"
 }
