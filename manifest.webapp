@@ -1,13 +1,13 @@
 ﻿{
   "name": "El Pulso",
   "description": "El mejor noticiero satirico de Mexico ahora disponible en tu dispositivo movil. Deja que Chumel Torres te informe de lo mejor y lo peor de nuestro pais en El Pulso de la Republica, todos los lunes y jueves a las 11 am.",
-  "launch_path": "index.html",
+  "launch_path": "/pulso/index.html",
   "icons": {
     "128": "http://cobein.mx/pulso/images/icon.png" 
   },
   "developer": {
-    "name": "Alusor Stroke",
-    "url": "http://alusorstroke.com"
+    "name": "maquina501",
+    "url": "http://maquina501.mx"
   },
  "default_locale": "es"
 }
